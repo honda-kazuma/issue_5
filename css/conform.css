@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP' , sans-serif;
+}
+
+.conform_form {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+form input {
+    width: 450px;
+    line-height: 2;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.conform_text {
+    max-width: 550px;
+    font-size: 20px;
+    margin: 48px auto;
+    padding: 0;
+    display: -webkit-box;
+}
+
+.conform_text label {
+    display: block;
+    font-size: 20px;
+    margin: 0 8px;
+    width: 40%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+p {
+    display: block;
+    margin-top: 10px;
+}
+
+.conform_btn {
+    height: 54px;
+    width: 100px;
+    margin: 0 124px;
+    background-color: #bea574;
+    color: #ffffff;
+    margin-bottom: 24px;
+    font-size: 24px;
+    border-radius: 8px;
+    border-style: none;
+    transition-property: opacity;
+}
+
+.conform_btn:hover {
+    opacity: 0.7;
+}
+
+.conform_form input {
+    background-color: lightgray;
+}
+
+.contact-title {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 100px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+@media screen and (max-width: 720px) {
+    .conform_btn {
+        margin: 0 64px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .conform_btn {
+        margin: 0 24px;
+        margin-bottom: 24px;
+    }
+
+    .conform_text {
+        font-size: 18px;
+
+    }
+    
+    .conform_text label {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .conform_text {
+        font-size: 16px;
+    }
+    
+    .conform_text label {
+        font-size: 16px;
+    }
+}
+
+

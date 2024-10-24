@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP' , sans-serif;
+}
+
+.thanks_text {
+    position: relative;
+    font-size: 26px;
+    margin-top: 100px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .thanks_text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .thanks_text {
+        font-size: 18px;
+    }
+}
