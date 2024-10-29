@@ -18,13 +18,13 @@
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="img/slide_1.jpg" alt=""/>
+                        <div class="slide_img_1"></div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/slide_2.jpg" alt=""/>
+                        <div class="slide_img_2"></div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/slide_3.jpg" alt=""/>
+                        <div class="slide_img_3"></div>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -140,7 +140,7 @@
                 <div>
                     <label class="input_text">電話番号
                         <span class="span_content2">*任意</span>    
-                        <input type="tel" name="tel" pattern="[0~9]{3}[0~9]{4}[0~9]{4}" placeholder="例)09012345678">
+                        <input type="tel" name="tel" pattern="\d{2,4}-?\d{2,4}-?\d{3,4}" maxlength="13" placeholder="例)09012345678">
                     </label>
                 </div>
 

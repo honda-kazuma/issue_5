@@ -13,7 +13,7 @@
     
     <footer class="footer">
         <div class="wrapper footer_wrap">
-            <a href="index.html#0" class="footer_logo">
+            <a href="index.php#0" class="footer_logo">
                 <img src="img/logo.png" class="footer_img_logo" alt="">
             </a>
         </div>

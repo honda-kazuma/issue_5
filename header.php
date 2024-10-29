@@ -12,14 +12,14 @@
 <body>
     <header class="header">
         <div class="wrapper header_wrap">
-            <a href="index.html#0" id="s_01" class="logo">
+            <a href="index.php#0" id="s_01" class="logo">
                 <img src="img/logo.png" class="img_logo" alt="">
             </a>
             <nav class="header_nav">
                 <ul>
-                    <li><a href="index.html#1">スケジュール</a></li>
-                    <li><a href="index.html#2">アクセス</a></li>
-                    <li><a href="index.html#3">席予約</a></li>
+                    <li><a href="index.php#1">スケジュール</a></li>
+                    <li><a href="index.php#2">アクセス</a></li>
+                    <li><a href="index.php#3">席予約</a></li>
                 </ul>
             </nav>
             <div class="menu_btn" id="menu_btn"><span></span></div>

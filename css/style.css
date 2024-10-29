@@ -216,11 +216,16 @@ header {
     }
 }
 
+swiper {
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
-
-
-
-
+.swiper-wrapper {
+    height: 975px;
+}
 
 main .swiper-button-prev,
 main .swiper-button-next {
@@ -248,12 +253,33 @@ main .swiper-button-next::after {
     background-image: url(../img/slide-btn-next.svg);
 }
 
-.swiper-slide img {
-    height: auto;
-    width: 100%;
+.slide_img_1 {
+    background-image: url('../img/slide_1.jpg');
+    padding-top: 56.25%;
     margin-top: 74px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
+.slide_img_2 {
+    background-image: url('../img/slide_2.jpg');
+    padding-top: 56.25%;
+    margin-top: 74px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.slide_img_3 {
+    background-image: url('../img/slide_3.jpg');
+    padding-top: 56.25%;
+    margin-top: 74px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 main .swiper-pagination-bullet {
     width: 16px;
@@ -261,6 +287,7 @@ main .swiper-pagination-bullet {
     margin: 0 12px !important;
     background-color: #bea574;
 }
+
 
 
 
