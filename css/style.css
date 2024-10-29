@@ -5,6 +5,10 @@
     font-family: 'Noto Sans JP' , sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .img_logo {
     width: 100px;
     height: 50px;

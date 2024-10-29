@@ -2,6 +2,7 @@ $(function(){
 
     var windowWidth = $(window).width();
     var windowSm = 680;
+    var speed = 600;
     if (windowWidth <= windowSm) {
 
     
@@ -9,7 +10,7 @@ $(function(){
             var href = $(this).attr('href');
             var target = $(href == "#" || href == "" ? 'html' : href);
             var position = target.offset().top;
-            $('html,body').animate({scrollTop:position}, 500, "swing");
+            $('html,body').animate({scrollTop:position}, speed, "swing");
             return false;
         });
     
@@ -19,7 +20,7 @@ $(function(){
                 var href = $(this).attr('href');
                 var target = $(href == "#" || href == "" ? 'html' : href);
                 var position = target.offset().top;
-                $('html,body').animate({scrollTop:position}, 500, "swing");
+                $('html,body').animate({scrollTop:position}, speed, "swing");
                 return false;
             });
         });
