@@ -76,11 +76,11 @@ $(function(){
         $(this).toggleClass("open");
         $(".header_nav").toggleClass("open");
     });
+    $(".header_nav ul li a").on("click", function() {
+        $(".header_nav").removeClass("open");
+        $(".menu_btn").removeClass("open");
+    });
 });
-
-
-
-
 
 
 $(function() {
@@ -105,7 +105,6 @@ $(function() {
         }
     });
 });
-
 
 
 $(function() {
